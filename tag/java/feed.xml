@@ -40,7 +40,13 @@
 	  <pubDate>2017-09-09T10:00:00+00:00</pubDate>
 	  <guid>/mvc-en-java-netbeans</guid>
 	  <description><![CDATA[
-	     
+	     <p>MVC es un patrón de desarrollo que seguramente conoces. La idea detrás de él es dividir el código en tres elementos importantes:</p>
+<ul>
+  <li><strong>Modelos:</strong></li>
+  <li><strong>Vistas:</strong></li>
+  <li><strong>Controladores:</strong> Código encargado de la <em>lógica</em> de la aplicación.</li>
+</ul>
+
 
 	  ]]></description>
 	</item>

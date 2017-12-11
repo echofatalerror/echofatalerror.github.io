@@ -26,7 +26,13 @@
       <item>
         <title>Una aproximación al patrón MVC en Java (usando Netbeans)</title>
         
-          <description>
+          <description>&lt;p&gt;MVC es un patrón de desarrollo que seguramente conoces. La idea detrás de él es dividir el código en tres elementos importantes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Modelos:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Vistas:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Controladores:&lt;/strong&gt; Código encargado de la &lt;em&gt;lógica&lt;/em&gt; de la aplicación.&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
         <pubDate>Sat, 09 Sep 2017 10:00:00 +0000</pubDate>
