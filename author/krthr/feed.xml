@@ -50,8 +50,7 @@
 	  <pubDate>2017-10-12T07:00:00+00:00</pubDate>
 	  <guid>/615a-a-bulbs-codeforces</guid>
 	  <description><![CDATA[
-	     <h2 id="problema">Problema</h2>
-<p>Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?</p>
+	     <p>Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?</p>
 
 <p>If Vasya presses the button such that some bulbs connected to it are already turned on, they do not change their state, i.e. remain turned on.</p>
 
@@ -167,8 +166,7 @@ int main() {
 	  <pubDate>2017-09-09T10:00:00+00:00</pubDate>
 	  <guid>/339-a-helpful-maths-codeforces</guid>
 	  <description><![CDATA[
-	     <h2>Problema</h2>
-<p>Xenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.</p>
+	     <p>Xenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.</p>
 <p>The teacher has written down the sum of multiple numbers. Pupils should calculate the sum. To make the calculation easier, the sum only contains numbers 1, 2 and 3. Still, that isn’t enough for Xenia. She is only beginning to count, so she can calculate a sum only if the summands follow in non-decreasing order. For example, she can’t calculate sum 1+3+2+1 but she can calculate sums 1+1+2 and 3+3.</p>
 <p>You’ve got the sum that was written on the board. Rearrange the summans and print the sum in such a way that Xenia can calculate the sum.</p>
 
