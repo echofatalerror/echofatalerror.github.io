@@ -131,6 +131,24 @@ int main() {
 	</item>
 
 	<item>
+	  <title>Una aproximación al patrón MVC en Java (usando Netbeans)</title>
+	  <link>/mvc-en-java-netbeans</link>
+		
+				
+		
+				
+						<author>Karther Rupnik</author>
+				
+		
+	  <pubDate>2017-09-09T10:00:00+00:00</pubDate>
+	  <guid>/mvc-en-java-netbeans</guid>
+	  <description><![CDATA[
+	     
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>339A – A. Helpful Maths [Codeforces]</title>
 	  <link>/339-a-helpful-maths-codeforces</link>
 		

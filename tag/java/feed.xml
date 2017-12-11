@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>/</title>
+   
+   <link>/</link>
+   <description>programación. colombia.</description>
+   <language>es-co</language>
+   
+   <title>
+   <![CDATA[ echo 'fatal error' ]]>
+   </title>
+   <description>
+   <![CDATA[ programación. colombia. ]]>
+   </description>
+   <link>/</link>
+   <image>
+   <url>/assets/images/favicon.png</url>
+   <title>echo 'fatal error'</title>
+   <link>/</link>
+   </image>
+   <generator>Jekyll 3.6.2</generator>
+   <lastBuildDate></lastBuildDate>
+   <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
+   <ttl>60</ttl>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Una aproximación al patrón MVC en Java (usando Netbeans)</title>
+	  <link>/mvc-en-java-netbeans</link>
+		
+				
+		
+				
+						<author>Karther Rupnik</author>
+				
+		
+	  <pubDate>2017-09-09T10:00:00+00:00</pubDate>
+	  <guid>/mvc-en-java-netbeans</guid>
+	  <description><![CDATA[
+	     
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
