@@ -37,6 +37,8 @@
 						<author>Karther Rupnik</author>
 				
 		
+				
+		
 	  <pubDate>2017-09-09T10:00:00+00:00</pubDate>
 	  <guid>/mvc-en-java-netbeans</guid>
 	  <description><![CDATA[
@@ -47,6 +49,11 @@
   <li><strong>Controladores:</strong> Código encargado de la <em>lógica</em> de la aplicación.</li>
 </ul>
 
+<h2 id="proyecto">Proyecto</h2>
+
+<h2 id="estructura-del-proyecto">Estructura del proyecto</h2>
+
+<h2 id="conclusión">Conclusión</h2>
 
 	  ]]></description>
 	</item>
