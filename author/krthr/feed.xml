@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>/</title>
+   
+   <link>/</link>
+   <description>programación. colombia.</description>
+   <language>es-co</language>
+   
+      
+            
+      
+            
+               
+               
+                  <managingEditor>Karther Rupnik</managingEditor>
+            
+      
+   
+   <title>
+   <![CDATA[ Karther Rupnik - echo 'fatal error' ]]>
+   </title>
+   <description>
+   <![CDATA[ programación. colombia. ]]>
+   </description>
+   <link>/</link>
+   <image>
+   <url>/assets/images/favicon.png</url>
+   <title>Karther Rupnik - echo 'fatal error'</title>
+   <link>/</link>
+   </image>
+   <generator>Jekyll 3.6.2</generator>
+   <lastBuildDate></lastBuildDate>
+   <atom:link href="/author/krthr/rss.xml" rel="self" type="application/rss+xml"/>
+   <ttl>60</ttl>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>615A - A. Bulbs [Codeforces]</title>
+	  <link>/615a-a-bulbs-codeforces</link>
+		
+				
+		
+				
+						<author>Karther Rupnik</author>
+				
+		
+	  <pubDate>2017-10-12T07:00:00+00:00</pubDate>
+	  <guid>/615a-a-bulbs-codeforces</guid>
+	  <description><![CDATA[
+	     <h2 id="problema">Problema</h2>
+<p>Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?</p>
+
+<p>If Vasya presses the button such that some bulbs connected to it are already turned on, they do not change their state, i.e. remain turned on.</p>
+
+<h3 id="input">Input</h3>
+<p>The first line of the input contains integers n and m (1 ≤ n, m ≤ 100) — the number of buttons and the number of bulbs respectively.</p>
+
+<p>Each of the next n lines contains xi (0 ≤ xi ≤ m) — the number of bulbs that are turned on by the i-th button, and then xi numbers yij (1 ≤ yij ≤ m) — the numbers of these bulbs.</p>
+
+<h3 id="output">Output</h3>
+<p>If it’s possible to turn on all m bulbs print “YES”, otherwise print “NO”.</p>
+
+<h3 id="examples">Examples</h3>
+
+<pre><code>
+# input
+3 4
+2 1 4
+3 1 3 1
+1 2
+
+# output
+YES
+
+---
+
+# input
+3 3
+1 1
+1 2
+1 1
+
+# output
+NO
+</code></pre>
+
+<h2 id="solución">Solución</h2>
+
+<pre><code class="c++">
+/**
+    Codeforces | 615A
+    A. Bulbs
+    @author krthr
+*/
+
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+int main() {
+    int n, m, x, j;
+    cin &gt;&gt; n &gt;&gt; m;
+    bool b[m];
+
+    for (int i = 0; i &lt; m; i++) b[i] = false;
+
+    for (int i = 0; i &lt; n; i++) {
+        cin &gt;&gt; x;
+        while (x--) {
+            cin &gt;&gt; j;
+            b[j - 1] = true;
+        }
+    }
+
+    for (bool t : b) {
+        if (!t) {
+            cout &lt;&lt; "NO" &lt;&lt; endl; return 0;
+        }
+    }
+
+    cout &lt;&lt; "YES" &lt;&lt; endl;
+
+    return 0;
+}
+</code></pre>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>339A – A. Helpful Maths [Codeforces]</title>
+	  <link>/339-a-helpful-maths-codeforces</link>
+		
+				
+		
+				
+						<author>Karther Rupnik</author>
+				
+		
+	  <pubDate>2017-09-09T10:00:00+00:00</pubDate>
+	  <guid>/339-a-helpful-maths-codeforces</guid>
+	  <description><![CDATA[
+	     <h2>Problema</h2>
+<p>Xenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.</p>
+<p>The teacher has written down the sum of multiple numbers. Pupils should calculate the sum. To make the calculation easier, the sum only contains numbers 1, 2 and 3. Still, that isn’t enough for Xenia. She is only beginning to count, so she can calculate a sum only if the summands follow in non-decreasing order. For example, she can’t calculate sum 1+3+2+1 but she can calculate sums 1+1+2 and 3+3.</p>
+<p>You’ve got the sum that was written on the board. Rearrange the summans and print the sum in such a way that Xenia can calculate the sum.</p>
+
+<h3>Input</h3>
+<p>The first line contains a non-empty string s — the sum Xenia needs to count. String s contains no spaces. It only contains digits and characters “+“. Besides, string s is a correct sum of numbers 1, 2 and 3. String s is at most 100 characters long.</p>
+<h3>Output</h3>
+<p>Print the new sum that Xenia can count.</p>
+
+<h3>Ejemplos</h3>
+
+<pre><code>
+# input:    3+2+1
+# output:   1+2+3
+---
+# input:    1+1+3+1+3
+# output:   1+1+1+3+3
+---
+# input:    2
+# output:   2
+</code></pre>
+
+<h2>Solución</h2>
+<p>La solución a este problema es sencilla. Almacenaremos los números que nos dan en el input en un vector. Luego ordenaremos
+    el vector y finalmente lo mostramos. El método que uso para ordenar el vector es: *HeapSort*.</p>
+
+<pre><code class="c++">
+    /**
+        Codeforces | 339A
+        A. Helpful Maths
+        @author krthr
+    */
+    #include <bits/stdc++.h>
+    using namespace std;
+    
+    void heapify(int arr[], int n, int i) {
+        int largest = i;
+        int l = 2*i + 1;
+        int r = 2*i + 2;
+    
+        if (l < n && arr[l] > arr[largest]) largest = l;
+        if (r < n && arr[r] > arr[largest]) largest = r;
+    
+        if (largest != i) {
+            swap(arr[i], arr[largest]);
+            heapify(arr, n, largest);
+        }
+    }
+    
+    void heapSort(int arr[], int n) {
+        for (int i = n / 2 - 1; i >= 0; i--)
+            heapify(arr, n, i);
+    
+        for (int i=n-1; i>=0; i--) {
+            swap(arr[0], arr[i]);
+    
+            heapify(arr, i, 0);
+        }
+    }
+    
+    int main() {
+        int n[100], j = 0;
+        string s;
+        getline(cin, s);
+    
+        for (int i = 0; i < s.length(); i++) {
+            if (s[i] == '+') continue;
+            else {
+                n[j] = s[i] - '0';  j++;
+            }
+        }
+    
+        heapSort(n, j);
+    
+        for (int i = 0; i < j; i++) {
+            if (i < j - 1) cout << n[i] << "+";
+            else cout << n[i];
+        }
+    
+        return 0;
+    }
+</code></pre>
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
