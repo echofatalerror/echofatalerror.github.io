@@ -10,7 +10,8 @@
       <item>
         <title>615A - A. Bulbs [Codeforces]</title>
         
-          <description>&lt;p&gt;Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?&lt;/p&gt;
+          <description>&lt;h2 id=&quot;problema&quot;&gt;Problema&lt;/h2&gt;
+&lt;p&gt;Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?&lt;/p&gt;
 
 </description>
         
@@ -45,7 +46,8 @@
       <item>
         <title>339A – A. Helpful Maths [Codeforces]</title>
         
-          <description>&lt;p&gt;Xenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.&lt;/p&gt;
+          <description>&lt;h2&gt;Problema&lt;/h2&gt;
+&lt;p&gt;Xenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.&lt;/p&gt;
 &lt;p&gt;The teacher has written down the sum of multiple numbers. Pupils should calculate the sum. To make the calculation easier, the sum only contains numbers 1, 2 and 3. Still, that isn’t enough for Xenia. She is only beginning to count, so she can calculate a sum only if the summands follow in non-decreasing order. For example, she can’t calculate sum 1+3+2+1 but she can calculate sums 1+1+2 and 3+3.&lt;/p&gt;
 &lt;p&gt;You’ve got the sum that was written on the board. Rearrange the summans and print the sum in such a way that Xenia can calculate the sum.&lt;/p&gt;
 
