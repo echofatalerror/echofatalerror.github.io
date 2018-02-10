@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-10T15:05:12+00:00</updated><id>/</id><title type="html">echo ‘fatal error’</title><subtitle>programación. colombia.</subtitle><entry><title type="html">615A - A. Bulbs [Codeforces]</title><link href="/615a-a-bulbs-codeforces" rel="alternate" type="text/html" title="615A - A. Bulbs [Codeforces]" /><published>2017-10-12T07:00:00+00:00</published><updated>2017-10-12T07:00:00+00:00</updated><id>/615a-a-bulbs-codeforces</id><content type="html" xml:base="/615a-a-bulbs-codeforces">&lt;p&gt;Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-10T15:33:16+00:00</updated><id>/</id><title type="html">echo ‘fatal error’</title><subtitle>programación. colombia.</subtitle><entry><title type="html">Algoritmos de C++ bastante útiles</title><link href="/algoritmos-de-c++-bastante-utiles" rel="alternate" type="text/html" title="Algoritmos de C++ bastante útiles" /><published>2017-10-12T07:00:00+00:00</published><updated>2017-10-12T07:00:00+00:00</updated><id>/algoritmos-de-c++-bastante-utiles</id><content type="html" xml:base="/algoritmos-de-c++-bastante-utiles">&lt;p&gt;Muchos de nosotros no sabemos el tiempo y el esfuerzo que podemos ahorrar con algunos algoritmos la librería &lt;code class=&quot;highlighter-rouge&quot;&gt;algorithm&lt;/code&gt; de la Librería Estándar C++.&lt;/p&gt;
+
+&lt;p&gt;La librería estándar tiene tres categorías principales:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Colecciones&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Algoritmos.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Colecciones&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;algoritmos-&quot;&gt;Algoritmos &lt;algorithm&gt;&lt;/algorithm&gt;&lt;/h1&gt;
+&lt;p&gt;Los algoritmos que se encuentran en esta categoría trabajan con cualquier container, un vecto, &lt;code class=&quot;highlighter-rouge&quot;&gt;array&lt;/code&gt;, lista enlazada, pila, cola o -incluso- cadenas de caracteres. Así mismo, no importa qué contiene ese container.&lt;/p&gt;
+
+&lt;p&gt;Éstos algoritmos usualmente trabajan con &lt;strong&gt;iteradores&lt;/strong&gt;. Puedes pensar en los iteradores como punteros, aunque hay mucho más.&lt;/p&gt;
+
+&lt;h3 id=&quot;cabeceras-que-deberías-conocer&quot;&gt;Cabeceras que deberías conocer&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;algorithm&gt;
+&lt;/algorithm&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;vector&gt;&lt;array&gt;&lt;list&gt;&lt;map&gt;&lt;stack&gt;&lt;queue&gt;
+&lt;/queue&gt;&lt;/stack&gt;&lt;/map&gt;&lt;/list&gt;&lt;/array&gt;&lt;/vector&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;string&gt;
+&lt;/string&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;iterador&gt;
+&lt;/iterador&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;numeric&gt;
+&lt;/numeric&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;cmath&gt;
+
+&lt;/cmath&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;c++&quot;&gt;
+
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Karther Rupnik</name></author><category term="maratones" /><category term="c++" /><summary type="html">Muchos de nosotros no sabemos el tiempo y el esfuerzo que podemos ahorrar con algunos algoritmos la librería algorithm de la Librería Estándar C++.</summary></entry><entry><title type="html">615A - A. Bulbs [Codeforces]</title><link href="/615a-a-bulbs-codeforces" rel="alternate" type="text/html" title="615A - A. Bulbs [Codeforces]" /><published>2017-10-12T07:00:00+00:00</published><updated>2017-10-12T07:00:00+00:00</updated><id>/615a-a-bulbs-codeforces</id><content type="html" xml:base="/615a-a-bulbs-codeforces">&lt;p&gt;Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?&lt;/p&gt;
 
 &lt;p&gt;If Vasya presses the button such that some bulbs connected to it are already turned on, they do not change their state, i.e. remain turned on.&lt;/p&gt;
 

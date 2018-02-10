@@ -9,6 +9,21 @@
       
       <item>
         <image>/</image>
+        <title>Algoritmos de C++ bastante útiles</title>
+        
+          <description>&lt;p&gt;Muchos de nosotros no sabemos el tiempo y el esfuerzo que podemos ahorrar con algunos algoritmos la librería &lt;code class=&quot;highlighter-rouge&quot;&gt;algorithm&lt;/code&gt; de la Librería Estándar C++.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 12 Oct 2017 07:00:00 +0000</pubDate>
+        <link>/algoritmos-de-c++-bastante-utiles</link>
+        <guid isPermaLink="true">/algoritmos-de-c++-bastante-utiles</guid>
+      </item>
+      
+    
+      
+      <item>
+        <image>/</image>
         <title>615A - A. Bulbs [Codeforces]</title>
         
           <description>&lt;p&gt;Vasya wants to turn on Christmas lights consisting of m bulbs. Initially, all bulbs are turned off. There are n buttons, each of them is connected to some set of bulbs. Vasya can press any of these buttons. When the button is pressed, it turns on all the bulbs it’s connected to. Can Vasya light up all the bulbs?&lt;/p&gt;

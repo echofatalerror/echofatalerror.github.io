@@ -28,6 +28,73 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Algoritmos de C++ bastante útiles</title>
+	  <link>/algoritmos-de-c++-bastante-utiles</link>
+		
+				
+		
+				
+						<author>Karther Rupnik</author>
+				
+		
+				
+		
+				
+		
+	  <pubDate>2017-10-12T07:00:00+00:00</pubDate>
+	  <guid>/algoritmos-de-c++-bastante-utiles</guid>
+	  <description><![CDATA[
+	     <p>Muchos de nosotros no sabemos el tiempo y el esfuerzo que podemos ahorrar con algunos algoritmos la librería <code class="highlighter-rouge">algorithm</code> de la Librería Estándar C++.</p>
+
+<p>La librería estándar tiene tres categorías principales:</p>
+<ul>
+  <li><strong>Colecciones</strong></li>
+  <li><strong>Algoritmos.</strong></li>
+  <li><strong>Colecciones</strong></li>
+</ul>
+
+<h1 id="algoritmos-">Algoritmos <algorithm></algorithm></h1>
+<p>Los algoritmos que se encuentran en esta categoría trabajan con cualquier container, un vecto, <code class="highlighter-rouge">array</code>, lista enlazada, pila, cola o -incluso- cadenas de caracteres. Así mismo, no importa qué contiene ese container.</p>
+
+<p>Éstos algoritmos usualmente trabajan con <strong>iteradores</strong>. Puedes pensar en los iteradores como punteros, aunque hay mucho más.</p>
+
+<h3 id="cabeceras-que-deberías-conocer">Cabeceras que deberías conocer</h3>
+<ul>
+  <li>
+    <algorithm>
+</algorithm>
+  </li>
+  <li>
+    <vector><array><list><map><stack><queue>
+</queue></stack></map></list></array></vector>
+  </li>
+  <li>
+    <string>
+</string>
+  </li>
+  <li>
+    <iterador>
+</iterador>
+  </li>
+  <li>
+    <numeric>
+</numeric>
+  </li>
+  <li>
+    <cmath>
+
+</cmath>
+  </li>
+</ul>
+<pre><code class="c++">
+
+</code></pre>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>615A - A. Bulbs [Codeforces]</title>
 	  <link>/615a-a-bulbs-codeforces</link>
 		
